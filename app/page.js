@@ -9,6 +9,9 @@ const Page = () => {
         <Link href="/product">Product</Link>
         <br />
         <Link href="/profile">Profile</Link>
+        <br />
+        <Link href="/cart">Cart</Link>
+
     </div>
   )
 }

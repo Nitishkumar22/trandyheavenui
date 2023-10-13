@@ -12,9 +12,6 @@ const Profle = () => {
   return (
     <>
       <div className={css.main}>
-        <div className={css.username}>
-          <h1>My Account</h1>
-        </div>
         <div className={css.profilepage}>
           <div className={css.prodiledets}>
             <div className={css.profilee}>
@@ -90,6 +87,9 @@ const Profle = () => {
                 <label>Email id</label>
                 <input type="email" placeholder="Enter your email id" />
               </div>
+            <div className={css.subbtn}>
+                <button>Submit</button>
+            </div>
               <img
                 className={css.lastimg}
                 src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/myProfileFooter_4e9fe2.png"

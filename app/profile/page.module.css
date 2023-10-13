@@ -15,6 +15,7 @@
     /* background-color: yellow; */
     display: flex;
 }
+
 .prodiledets{
     width: 20%;
     /* background-color: red; */
@@ -100,4 +101,18 @@
 .email input{
     padding:.5vmax 1vmax ;
 
+}
+.subbtn{
+    width: 30%;
+    /* background-color: red; */
+    margin-top: 3vh;
+}
+.subbtn button{
+    padding: .5vmax 4vmax;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #000;
+    color: #000;
+    background-color: rgba(198, 198, 198, 0.415);
+    cursor: pointer;
 }
