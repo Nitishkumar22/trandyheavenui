@@ -1,0 +1,116 @@
+.main {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.productlangingpage {
+  width: 100%;
+  height: 90vh;
+  /* background-color: red; */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.productimg {
+  width: 50%;
+  height: 90vh;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 2vmax 0vmax 0 5vmax;
+}
+.allimg{
+    padding: .1vmax;
+    width: 100%;
+    height: 100%;
+  box-shadow: 0 0 5px #00000068;
+    /* background-color: red; */
+    border-radius: 5px;
+}
+.mainimg {
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+  overflow: hidden;
+  /* background-color: red; */
+}
+.mainimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.otherimgs{
+    width: 100%;
+    height: 25%;
+    margin-top: 3%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.allotherimgs{
+    width: 25%;  
+    background-color: yellow;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.allotherimgs img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.productdetails {
+  width: 50%;
+  height: 90vh;
+  /* background-color: pink; */
+  position: relative;
+  overflow: hidden;
+  padding: 5vmax 0vmax 0 5vmax;
+
+}
+.productprice{
+   margin-top: 1vmax; 
+   color: rgb(127, 127, 127);
+}
+.productprice h4{
+    font-weight: 500;
+
+}
+.productdets{
+    width: 70%;
+    margin-top: 1vmax;
+}
+.addtocart{
+    width:70%;
+    margin-top: 4vmax;
+    text-align: center;
+    background-color:#BF4547;
+    padding: .5vmax 0vmax;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.addtocart h4{
+    font-weight: 400;
+}
+.buytheproduct{
+    width:70%;
+    margin-top: 1vmax;
+    text-align: center;
+    background-color: #35A65B;
+    color: #fff;
+    padding: .5vmax 0vmax;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.buytheproduct h4{
+    font-weight: 400;
+}
+

@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./nav.module.css";
 import Link from "next/link";
+import { IconName } from "react-icons/bi";
 
 const Nav = () => {
   return (
@@ -17,10 +18,9 @@ const Nav = () => {
         </div>
         <div className={css.navigation}>
           <div className={css.search}>
-            <input type="search" placeholder="Search" />
+            <input type="search" placeholder="Search Product" />
           </div>
-          <Link href="#">Wishlist</Link>
-          <Link href="/login">Cart</Link>
+          <box-icon type='solid' name='cart-add'></box-icon>
           <Link href="/login">Login</Link>
         </div>
       </div>

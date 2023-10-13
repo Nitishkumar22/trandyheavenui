@@ -1,0 +1,103 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+}
+.username{
+    margin-left: 5vmax;
+    margin-top: 3vmax;
+}
+.profilepage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+}
+.prodiledets{
+    width: 20%;
+    /* background-color: red; */
+    padding: 2vmax 5vmax;
+    text-align: center;
+    height: 100%;
+    /* background-color: red; */
+}
+.profilee{
+    width: 100%;
+    background-color: #E2ECF6;
+    border-radius: 5px;
+    color:#1273cdbd;
+    padding: .3vmax 0;
+}
+.profilee h5{
+    font-weight: 500;
+    font-size: 1.2vmax;
+    margin-top: 3px;
+}
+.userdets{
+    width: 80%;
+    padding: 4vmax 0vmax 3vmax 2vmax;
+    /* background-color: red; */
+    margin-bottom: 5vh;
+    position: relative;
+    overflow: hidden;
+}
+.userdet{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2vmax 2vmax;
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.userdet img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.inputs{
+    margin-top: 5vh;
+    display: flex;
+    /* align-items: center; */
+    gap: 5%;
+    /* justify-content: space-between; */
+}
+.inputs input{
+    width: 40%;
+    padding: .5vmax 1vmax;
+    outline: none;
+}
+.gender{
+    margin-top: 5vh;
+}
+.gendertype{
+    margin-bottom: 1vh;
+}
+.dateofbirth{
+    width: 40%;
+    margin-top: 5vh;
+}
+.dateofbirth input{
+    padding:.5vmax 1vmax ;
+}
+.phone{
+    width: 40%;
+    margin-top: 5vh;
+}
+.phone input{
+    padding:.5vmax 1vmax ;
+
+}
+.email{
+    width: 90%;
+    margin-top: 5vh;
+}
+.email input{
+    padding:.5vmax 1vmax ;
+
+}

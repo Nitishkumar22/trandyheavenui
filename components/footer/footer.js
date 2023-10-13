@@ -26,11 +26,11 @@ const Footer = () => {
           <h4>Contact us</h4>
           <div className={style.rows}>
             {/* <BiSolidPhoneCall className={style.icns} /> */}
-            <p>+91 8962834895</p>
+            <p>+91 8709141863</p>
           </div>
           <div className={style.rows}>
             {/* <HiMail className={style.icns} /> */}
-            <p>contact@talenttrack.com</p>
+            <p>contact@trandyHeaven.com</p>
           </div>
           <div className={style.sinc}>
             {/* <BsInstagram className={style.sicns} /> */}
