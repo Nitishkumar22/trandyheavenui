@@ -11,6 +11,9 @@ const Page = () => {
         <Link href="/profile">Profile</Link>
         <br />
         <Link href="/cart">Cart</Link>
+        <br />
+        <Link href="/whislist">Whislist</Link>
+
 
     </div>
   )
