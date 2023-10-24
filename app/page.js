@@ -1,6 +1,6 @@
 "use client"
 import Link from 'next/link'
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,8 +9,19 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./styles.css"
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
+import { asynccurrentUser } from '@/store/Actions/Actions';
+import { useDispatch,useSelector } from 'react-redux';
 
 const Page = () => {
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.Reducers); 
+  // console.log(user);
+
+
+  useEffect(()=>{
+     dispatch(asynccurrentUser())
+  },[])
+
   return (
     <>
       <div className='main w-full'>

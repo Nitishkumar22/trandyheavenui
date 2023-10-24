@@ -11,7 +11,6 @@ export const myCustomMetadata = {
   title: "Register Page",
 };
 
-
 const Loginpage = () => {
   const router = useRouter();
  const dispatch = useDispatch();
